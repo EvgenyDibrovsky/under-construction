@@ -557,9 +557,6 @@ body {
 .items-center{
   align-items: center;
 }
-.justify-start{
-  justify-content: flex-start;
-}
 .justify-center{
   justify-content: center;
 }
@@ -644,6 +641,9 @@ body {
   }
   .lg\:flex-row{
     flex-direction: row;
+  }
+  .lg\:justify-start{
+    justify-content: flex-start;
   }
   .lg\:gap-0{
     gap: 0px;
