@@ -1,7 +1,7 @@
 {
-  "name": "name",
+  "name": "Under Construction",
   "version": "1.0.0",
-  "description": "Kazimierza Wielkiego 53",
+  "description": "Under Construction",
   "homepage": "https://evgenydibrovsky.github.io/under-construction/",
   "scripts": {
     "start": "webpack serve --mode=development",
