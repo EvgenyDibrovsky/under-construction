@@ -1,8 +1,8 @@
 {
   "name": "name",
   "version": "1.0.0",
-  "description": "Name static site",
-  "homepage": "https://name.site",
+  "description": "Kazimierza Wielkiego 53",
+  "homepage": "https://evgenydibrovsky.github.io/under-construction/",
   "scripts": {
     "start": "webpack serve --mode=development",
     "build": "webpack --mode=production"
