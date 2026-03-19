@@ -40,6 +40,15 @@
   .container-fluid {
     @apply w-full  mx-auto px-[1rem];
   }
+
+  @keyframes phone-swing {
+    0%, 100% { transform: rotate(-4deg); }
+    50% { transform: rotate(4deg); }
+  }
+
+  .group:hover .phone-swing {
+    animation: phone-swing 0.5s ease-in-out infinite;
+  }
 }
 
  

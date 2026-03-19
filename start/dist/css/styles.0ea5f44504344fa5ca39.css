@@ -520,6 +520,13 @@ body {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+@keyframes phone-swing {
+    0%, 100% { transform: rotate(-4deg); }
+    50% { transform: rotate(4deg); }
+  }
+.group:hover .phone-swing {
+    animation: phone-swing 0.5s ease-in-out infinite;
+  }
 .mb-\[2\.438rem\]{
   margin-bottom: 2.438rem;
 }
@@ -549,6 +556,9 @@ body {
 }
 .items-center{
   align-items: center;
+}
+.justify-start{
+  justify-content: flex-start;
 }
 .justify-center{
   justify-content: center;
