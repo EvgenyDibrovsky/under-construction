@@ -1,0 +1,45 @@
+@import url('https://use.typekit.net/dzr6dwr.css');
+
+@charset "UTF-8";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+
+  html {
+    font-size: calc(100vw / 1920 * 14);
+  }
+
+  :root {
+    --primary-title: clamp(1rem, calc(4vw + 0.19rem), 3.5rem);
+  }
+  /* scrollbar */
+  ::-webkit-scrollbar {
+    @apply w-2 h-2 bg-[#eeeeee];
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-[#eeeeee]
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-[#FC4903];
+  }
+
+
+  body {
+    font-family: "futura", sans-serif;
+  }
+
+ 
+}
+
+@layer components {
+  .container-fluid {
+    @apply w-full  mx-auto px-[1rem];
+  }
+}
+
+ 
